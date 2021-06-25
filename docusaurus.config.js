@@ -3,8 +3,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/vsLight');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Git basics beginners',
-  // tagline: 'Dinosaurs are cool',
+  title: 'Hi there...',
+  tagline: 'Since you landed here I assume that you would like to learn git basics...',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -36,9 +36,6 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

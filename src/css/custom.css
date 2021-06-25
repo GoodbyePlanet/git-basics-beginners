@@ -7,6 +7,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
+    font-family: 'Setimo';
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: rgb(33, 175, 144);
   --ifm-color-primary-darker: rgb(31, 165, 136);
@@ -24,6 +25,13 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
+.main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
+

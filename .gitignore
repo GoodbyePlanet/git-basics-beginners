@@ -20,3 +20,5 @@ yarn-debug.log*
 yarn-error.log*
 
 /blog
+docs/tutorial-basics
+docs/tutorial-extras
