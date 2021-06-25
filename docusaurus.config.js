@@ -5,13 +5,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/vsLight');
 module.exports = {
   title: 'Hi there...',
   tagline: 'Since you landed here I assume that you would like to learn git basics...',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://git-basics-beginners-fte9my5vj-goodbyeplanet.vercel.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'GoodbyePlanet',
+  projectName: 'git-basics-beginners',
   themeConfig: {
   	colorMode: {
 			defaultMode: 'light',
@@ -29,6 +29,10 @@ module.exports = {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
     },
+		footer: {
+			style: 'light',
+			copyright: `Copyright © ${new Date().getFullYear()} Nemanjas`,
+		},
   },
   presets: [
     [
@@ -42,5 +46,5 @@ module.exports = {
         },
       },
     ],
-  ],
+  ]
 };
