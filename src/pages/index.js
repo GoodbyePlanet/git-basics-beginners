@@ -17,7 +17,7 @@ function HomePge() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Let's get started ⏱️
+            Let's get started
           </Link>
         </div>
       </div>
