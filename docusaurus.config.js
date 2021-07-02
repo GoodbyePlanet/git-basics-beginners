@@ -31,7 +31,7 @@ module.exports = {
     },
 		footer: {
 			style: 'light',
-			copyright: `Copyright © ${new Date().getFullYear()} Nemanjas`,
+			copyright: `Copyright © ${new Date().getFullYear()} <a href="https://github.com/GoodbyePlanet"> Nemanjas</a>`,
 		},
   },
   presets: [
