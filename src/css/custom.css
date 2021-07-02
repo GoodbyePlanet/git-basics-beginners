@@ -31,6 +31,23 @@
     justify-content: center;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.typist-header {
+    font-weight: bold;
+    text-align: center;
+    font-size: 3rem;
+    width: 100%;
+}
+
+.typist-content {
+    font-size: 1.5rem;
+}
+
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }

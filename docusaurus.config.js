@@ -4,7 +4,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/vsLight');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Hi there!',
-  tagline: 'Since you\'ve landed here I assume you would like to learn git basics...',
+  tagline: 'I\'m Nemanja, software developer at ProductDock',
   url: 'https://git-basics-beginners-fte9my5vj-goodbyeplanet.vercel.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
