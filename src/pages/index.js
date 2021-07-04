@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import Typist from "react-typist";
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
@@ -40,8 +40,16 @@ function HomePge() {
 
 function BackgroundImage() {
 	const {isDarkTheme} = useThemeContext();
-	const imageSource = isDarkTheme ? "/img/git-background-dark.svg" : "/img/git-background.svg";
-	
+	const [imageSource, setImageSource] = useState("");
+
+	useEffect(() => {
+		if (isDarkTheme) {
+			setImageSource("/img/git-background-dark.svg");
+		} else {
+			setImageSource("/img/git-background.svg")
+		}
+	}, [isDarkTheme])
+
 	return (
 		<img className="background-image" src={imageSource} alt="background-image"/>
 	)
