@@ -3,6 +3,7 @@ import Typist from "react-typist";
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import useThemeContext from '@theme/hooks/useThemeContext';
 
 import "react-typist/dist/Typist.css";
 
@@ -37,11 +38,19 @@ function HomePge() {
 	);
 }
 
-export default function Home() {
-	const {siteConfig} = useDocusaurusContext();
+function BackgroundImage() {
+	const {isDarkTheme} = useThemeContext();
+	const imageSource = isDarkTheme ? "/img/git-background-dark.svg" : "/img/git-background.svg";
+	
 	return (
-		<Layout
-			title={siteConfig.title}>
+		<img className="background-image" src={imageSource} alt="background-image"/>
+	)
+}
+
+export default function Home() {
+	return (
+		<Layout>
+			<BackgroundImage/>
 			<HomePge/>
 		</Layout>
 	);
