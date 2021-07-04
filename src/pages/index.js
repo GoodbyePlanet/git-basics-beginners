@@ -1,9 +1,8 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import Typist from "react-typist";
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import useThemeContext from '@theme/hooks/useThemeContext';
 
 import "react-typist/dist/Typist.css";
 
@@ -38,27 +37,9 @@ function HomePge() {
 	);
 }
 
-function BackgroundImage() {
-	const {isDarkTheme} = useThemeContext();
-	const [imageSource, setImageSource] = useState("");
-
-	useEffect(() => {
-		if (isDarkTheme) {
-			setImageSource("/img/git-background-dark.svg");
-		} else {
-			setImageSource("/img/git-background.svg")
-		}
-	}, [isDarkTheme])
-
-	return (
-		<img className="background-image" src={imageSource} alt="background-image"/>
-	)
-}
-
 export default function Home() {
 	return (
 		<Layout>
-			<BackgroundImage/>
 			<HomePge/>
 		</Layout>
 	);
