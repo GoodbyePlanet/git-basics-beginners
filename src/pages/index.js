@@ -25,8 +25,12 @@ function HomePge() {
 				startDelay={2000}
 				cursor={{hideWhenDone: true}}
 			>
-				{siteConfig.tagline}<Typist.Delay ms={500}/>
-				<Typist.Backspace count={siteConfig.tagline.length} delay={200}/>
+				{siteConfig.tagline}
+				<Link
+					to="https://productdock.com/">
+					{' ' + siteConfig.customFields.company}
+				</Link><Typist.Delay ms={500}/>
+				<Typist.Backspace count={siteConfig.tagline.length + siteConfig.customFields.company.length + 1} delay={200}/>
 				<Typist.Delay ms={100}/>Who cares{', '}
 				<Link
 					to="/docs/intro">

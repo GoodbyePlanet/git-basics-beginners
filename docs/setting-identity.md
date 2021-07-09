@@ -1,5 +1,6 @@
 ---
 title: Setting Identity
+sidebar_position: 3
 ---
 
 After installing *git* you will have to configure it on your computer. The most important configuration variables are **username** and **email**. *Username* 

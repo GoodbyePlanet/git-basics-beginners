@@ -4,8 +4,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/vsLight');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Hi there!',
-  tagline: 'I\'m Nemanja, software developer at ProductDock',
-  url: 'https://git-basics-beginners-fte9my5vj-goodbyeplanet.vercel.app',
+  tagline: 'I\'m Nemanja, software developer at',
+  url: 'https://git-basics-beginners.vercel.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -18,7 +18,7 @@ module.exports = {
 			respectPrefersColorScheme: false,
 		},
     navbar: {
-      title: 'Git basics beginners',
+      title: 'Git basics',
       logo: {
         alt: 'git-basics',
         src: 'img/git.svg',
@@ -34,6 +34,9 @@ module.exports = {
 			copyright: `Copyright © ${new Date().getFullYear()} <a href="https://github.com/GoodbyePlanet"> Nemanjas</a>`,
 		},
   },
+	customFields: {
+		company: 'ProductDock'
+	},
   presets: [
     [
       '@docusaurus/preset-classic',

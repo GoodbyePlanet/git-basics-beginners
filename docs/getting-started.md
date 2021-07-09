@@ -1,5 +1,6 @@
 ---
 title: Getting started
+sidebar_position: 2
 ---
 
 If you are completely new to *git* and you don't have it installed on your machine then follow these instructions based on your OS.
@@ -16,7 +17,7 @@ If you are using Debian-based distribution such as Ubuntu:
 
 #### Installing on MacOS
 
-To install *git* on MacOS you can use **Homebrew**
+To install *git* on MacOS you can use **Homebrew**:
 
 `$ brew install git`
 

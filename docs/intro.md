@@ -1,6 +1,6 @@
 ---
-sidebar_position: 1
 title: Intro
+sidebar_position: 1
 ---
 
 This guide is intended to give an introduction to basic concepts and commands in *git* world. 
