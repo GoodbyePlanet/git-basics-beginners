@@ -5,7 +5,8 @@ sidebar_position: 1
 
 `$ git commit`
 
-We've already tackled `git commit`. This command creates a new commit object and it stores it inside `.git/objects` directory,
+We've already tackled `git commit` in section on [Tracking new changes](tracking-new-changes.md). 
+This command creates a new commit object and it stores it inside `.git/objects` directory,
 commit will have its unique `SHA-1` checksum that contains metadata on the commit that you've created.
 When you execute `git commit` command it will lunch default editor on your OS, you can change this behavior by changing `git config --global core.editor` configuration variable.
 
