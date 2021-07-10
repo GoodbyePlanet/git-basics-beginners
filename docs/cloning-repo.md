@@ -3,15 +3,11 @@ title: Cloning an existing repository
 sidebar_position: 6
 ---
 
-```shell
-$ git clone <url-of-remote-repo>
-```
+`$ git clone <url-of-remote-repo>`
 
 **clone** is a command for downloading an existing *git* repository to our local machine. Example:
 
-```shell
-$ git clone https://github.com/GoodbyePlanet/git-basics-beginners.git
-```
+`$ git clone https://github.com/GoodbyePlanet/git-basics-beginners.git`
 
 This will create a new directory **git-basics**, inside that directory, it will create **.git** a subdirectory, and then it will download all
 the data related to that repository, after that, you can move to the newly created directory and start making changes and do awesome work on the project.

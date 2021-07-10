@@ -5,7 +5,7 @@ sidebar_position: 5
 
 Command for initializing a new empty *git* repository is:
 
-$ git init
+`$ git init`
 
 This command will create a new subdirectory **.git** inside the current directory that you've created for your project.
 This subdirectory is important for the *git* and it is where *git* stores all important objects and all its references.
