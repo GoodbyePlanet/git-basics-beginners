@@ -16,7 +16,7 @@ function HomePge() {
 				avgTypingDelay={60}
 				cursor={{hideWhenDone: true}}
 			>
-				{siteConfig.title}
+				Hi there!
 			</Typist>
 			<br/>
 

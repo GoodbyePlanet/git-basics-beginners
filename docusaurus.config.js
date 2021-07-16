@@ -3,7 +3,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/okaidia');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Hi there!',
+  title: 'Git Basics',
   tagline: 'I\'m Nemanja, software developer at',
   url: 'https://git-basics-beginners.vercel.app/',
   baseUrl: '/',
