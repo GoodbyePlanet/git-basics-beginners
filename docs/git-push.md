@@ -11,10 +11,10 @@ You can see more information about your remote with the following command:
 `$ git remote show origin`
 
 ```shell
-➜  git-basics-for-beginners git:(master) ✗ git remote show origin
+➜  git-basics-beginners git:(master) ✗ git remote show origin
 * remote origin
-  Fetch URL: https://github.com/GoodbyePlanet/git-basics-for-beginners.git
-  Push  URL: https://github.com/GoodbyePlanet/git-basics-for-beginners.git
+  Fetch URL: https://github.com/GoodbyePlanet/git-basics-beginners.git
+  Push  URL: https://github.com/GoodbyePlanet/git-basics-beginners.git
   HEAD branch: master
   Remote branches:
     feature/hello-world tracked

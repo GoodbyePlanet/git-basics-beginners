@@ -11,7 +11,7 @@ If you execute only `git diff` without any options, _git_ will show you all chan
 If you want to see staged changes then you have to add `--staged` option.
 
 ```shell
-➜  git-basics-for-beginners git:(master) ✗ git status
+➜  git-basics-beginners git:(master) ✗ git status
 On branch master
 Your branch is up to date with 'origin/master'.
 

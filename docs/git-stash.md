@@ -17,14 +17,14 @@ It's the reference that points to the **git merge** commit. You can check this o
 in your local repository.
 
 ```shell
-➜  git-basics-for-beginners git:(master) git show-ref | grep stash
+➜  git-basics-beginners git:(master) git show-ref | grep stash
 03848026bd57579369a7c22777f9e79a0f307ed7 refs/stash
 ```
 
 and if you then run **git cat-file -t** this command will show type information on particular **git object**.
 
 ```shell
-➜  git-basics-for-beginners git:(master) git cat-file -t 03848026bd57579369a7c22777f9e79a0f307ed7
+➜  git-basics-beginners git:(master) git cat-file -t 03848026bd57579369a7c22777f9e79a0f307ed7
 commit
 ```
 
@@ -33,7 +33,7 @@ you can see that it is a commit. Now to see that it is a merge commit you can ru
 `git show stash@{0}`
 
 ```shell
-➜  git-basics-for-beginners git:(master) git --no-pager show stash@{0}
+➜  git-basics-beginners git:(master) git --no-pager show stash@{0}
 commit 03848026bd57579369a7c22777f9e79a0f307ed7 (refs/stash)
 Merge: 45c5d9e e61a73a
 Author: Nemanja <nemanjavasa@gmail.com>

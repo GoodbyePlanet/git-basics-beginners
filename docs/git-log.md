@@ -12,7 +12,7 @@ I will show a few of them that are really useful.
 `$ git log` - outputs the most basic log
 
 ```shell
-➜  git-basics-for-beginners git:(master) ✗ git log
+➜  git-basics-beginners git:(master) ✗ git log
 commit 016a78afb73c9c124a01a675ab057b4be03c1be1 (HEAD -> master)
 Author: Nemanja <nemanjavasa@gmail.com>
 Date:   Mon Jun 22 21:33:13 2020 +0200
@@ -31,7 +31,7 @@ Date:   Mon Jun 22 21:24:10 2020 +0200
 `$ git log --oneline` - it will output history formatted in one line
 
 ```shell
-➜  git-basics-for-beginners git:(master) ✗ git log --oneline
+➜  git-basics-beginners git:(master) ✗ git log --oneline
 016a78a (HEAD -> master) Add git show command explanation
 11d60de Improve Git Stash section
 45c5d9e (origin/master) Fix typo in guide header
@@ -58,7 +58,7 @@ diff --git a/README.md b/README.md
 index a286344..b7083e0 100644
 --- a/README.md
 +++ b/README.md
-@@ -228,6 +228,25 @@ �<9E><9C>  git-basics-for-beginners git:(master) �<9C><97> git status --short
+@@ -228,6 +228,25 @@ �<9E><9C>  git-basics-beginners git:(master) �<9C><97> git status --short
  --branch
  >NOTE: `-a` argument will not add newly created files to the staging area it will add only alread
 y existing files from you Working Directory that have been changed, for new files you will have to

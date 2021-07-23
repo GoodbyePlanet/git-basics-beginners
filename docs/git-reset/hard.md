@@ -10,7 +10,7 @@ So any changes that you've had in the *Staging Area* and in the *Working Directo
 Let's see an example.
 
 ```shell {2}
-➜  git-basics-for-beginners git:(master)
+➜  git-basics-beginners git:(master)
  touch git-hard-example && git add . && git commit -m "Add git-hard-example file"
 [master e103b63] Add git-hard-example file
  1 file changed, 0 insertions(+), 0 deletions(-)

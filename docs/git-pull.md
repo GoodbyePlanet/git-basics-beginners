@@ -30,8 +30,8 @@ You can check if your local branch is tracked by using the following command:
 ```shell
 ➜  git-basics-beginners git:(master) git remote show origin
 * remote origin
-  Fetch URL: https://github.com/GoodbyePlanet/git-basics.git
-  Push  URL: https://github.com/GoodbyePlanet/git-basics.git
+  Fetch URL: https://github.com/GoodbyePlanet/git-basics-beginners.git
+  Push  URL: https://github.com/GoodbyePlanet/git-basics-beginners.git
   HEAD branch: master
   Remote branches:
     feature/add_footer_section tracked
