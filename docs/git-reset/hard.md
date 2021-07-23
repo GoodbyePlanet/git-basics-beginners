@@ -6,7 +6,7 @@ sidebar_position: 4
 This option is considered to be dangerous because it modifies your *Working Directory*, and basically
 resets everything to match the commit on which you reset to.
 So any changes that you've had in the *Staging Area* and in the *Working Directory* will be lost
-(you can still recover from this state and we will talk about that in the **git reflog** section).
+(you can still recover from this state and we will talk about that in the [Git Reflog](../git-reflog.md) section).
 Let's see an example.
 
 ```shell {2}
