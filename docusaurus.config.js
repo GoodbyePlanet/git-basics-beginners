@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/okaidia');
 module.exports = {
   title: 'Git Basics',
   tagline: 'I\'m Nemanja, software developer at',
-  url: 'https://git-basics-beginners.vercel.app/',
+  url: 'https://git-basics.com/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

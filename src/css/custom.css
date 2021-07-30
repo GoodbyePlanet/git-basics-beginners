@@ -11,6 +11,10 @@ body, html {
     font-family: 'Roboto Mono', monospace !important;
 }
 
+article header h1 {
+    font-size: 1.9rem !important;
+}
+
 :root {
     --ifm-font-family-base: 'Roboto Mono', monospace;
     --ifm-font-size-base: 18px;
@@ -67,4 +71,10 @@ html[data-theme='dark'] {
     --ifm-background-color: #333333;
     --ifm-background-surface-color: #2d2c2c;
     --ifm-footer-background-color: #2d2c2c;
+}
+
+@media screen and (max-width: 996px) {
+    article header h1 {
+        font-size: 1.6rem !important;
+    }
 }
