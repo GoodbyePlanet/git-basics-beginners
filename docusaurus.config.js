@@ -13,6 +13,10 @@ module.exports = {
   organizationName: 'GoodbyePlanet',
   projectName: 'git-basics-beginners',
   themeConfig: {
+		gtag: {
+			trackingID: 'G-93SEBE7KK5',
+			anonymizeIP: true,
+		},
   	colorMode: {
 			defaultMode: 'light',
 			respectPrefersColorScheme: false,
