@@ -67,12 +67,37 @@ article header h1 {
     font-size: 2rem;
 }
 
-.link {
+.buyButton {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    color: #22BAD9;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
 
- }
+.buyButton:hover,
+.buyButton:active,
+.buyButton:focus {
+    text-decoration: underline;
+    opacity: 0.85;
+    color: #ffffff;
+}
 
-.asdf {
+.coffeeImage {
+    height: 2vh;
+    box-shadow: none;
+    border: none;
+    vertical-align: middle;
+}
 
+.coffeeButtonText {
+    margin-left: 15px;
+    font-size: 0.8rem;
+    vertical-align: middle;
 }
 
 html[data-theme='dark'] {
