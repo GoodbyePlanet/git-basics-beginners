@@ -26,15 +26,10 @@ function HomePge() {
 				cursor={{hideWhenDone: true}}
 			>
 				{siteConfig.tagline}
-				<Link
-					to="https://productdock.com/">
-					{' ' + siteConfig.customFields.company}
-				</Link><Typist.Delay ms={500}/>
-				<Typist.Backspace count={siteConfig.tagline.length + siteConfig.customFields.company.length + 1} delay={200}/>
-				<Typist.Delay ms={100}/>Who cares{', '}
+				<Typist.Delay ms={1000}/>
 				<Link
 					to="/docs/intro">
-					Let's learn git basics!
+					{' '}Click here to get started!
 				</Link>
 			</Typist>
 		</div>

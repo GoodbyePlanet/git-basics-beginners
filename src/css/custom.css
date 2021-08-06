@@ -67,6 +67,14 @@ article header h1 {
     font-size: 2rem;
 }
 
+.link {
+
+ }
+
+.asdf {
+
+}
+
 html[data-theme='dark'] {
     --ifm-background-color: #333333;
     --ifm-background-surface-color: #2d2c2c;

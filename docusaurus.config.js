@@ -4,7 +4,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/okaidia');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Git Basics',
-  tagline: 'I\'m Nemanja, software developer at',
+  tagline: 'You want to learn git basics?',
   url: 'https://git-basics.com/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
