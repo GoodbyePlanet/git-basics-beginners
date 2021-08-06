@@ -84,7 +84,7 @@ article header h1 {
 .buyButton:focus {
     text-decoration: underline;
     opacity: 0.85;
-    color: #ffffff;
+    color: #21d9ff;
 }
 
 .coffeeImage {
