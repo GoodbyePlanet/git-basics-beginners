@@ -35,7 +35,7 @@ module.exports = {
     },
 		footer: {
 			style: 'light',
-			copyright: `Copyright © ${new Date().getFullYear()} <a href="https://github.com/GoodbyePlanet"> Nemanjas</a>`,
+			copyright: `Copyright © ${new Date().getFullYear()} <a href="https://github.com/GoodbyePlanet"> GoodbyePlanet</a>`,
 		},
   },
 	customFields: {
