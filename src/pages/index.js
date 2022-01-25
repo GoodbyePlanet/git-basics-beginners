@@ -6,7 +6,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 import "react-typist/dist/Typist.css";
 
-function HomePge() {
+function HomePage() {
 	const {siteConfig} = useDocusaurusContext();
 
 	return (
@@ -39,7 +39,7 @@ function HomePge() {
 export default function Home() {
 	return (
 		<Layout>
-			<HomePge/>
+			<HomePage/>
 		</Layout>
 	);
 }
