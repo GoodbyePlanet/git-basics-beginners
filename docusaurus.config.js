@@ -1,5 +1,5 @@
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/okaidia');
+const lightCodeTheme = require('prism-react-renderer').themes.github;
+const darkCodeTheme = require('prism-react-renderer').themes.okaidia;
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
@@ -13,10 +13,6 @@ module.exports = {
   organizationName: 'GoodbyePlanet',
   projectName: 'git-basics-beginners',
   themeConfig: {
-		gtag: {
-			trackingID: 'G-93SEBE7KK5',
-			anonymizeIP: true,
-		},
   	colorMode: {
 			defaultMode: 'light',
 			respectPrefersColorScheme: false,

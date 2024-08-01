@@ -13,7 +13,7 @@ that is why good commit message matters.
 There are seven rules of good commit messages, and since this topic deserves a lot more then I can write here, I will just leave a link to a really good article
 for you to read.
 
-<https://chris.beams.io/posts/git-commit/>
+[Commit message rules](https://chris.beams.io/posts/git-commit/)
 
 However I will emphasize a few of those rules that I think they are really important.
 

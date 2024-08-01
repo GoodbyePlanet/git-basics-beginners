@@ -64,7 +64,11 @@ article header h1 {
 }
 
 .pagination-nav__label {
-    font-size: 2rem;
+    font-size: 1rem;
+}
+
+.pagination-nav__sublabel {
+    display: none;
 }
 
 .buyButton {
